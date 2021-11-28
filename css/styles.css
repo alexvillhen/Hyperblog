@@ -1,12 +1,25 @@
 body{
     text-align: center;
     font-family: sans-serif;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 h1{
-    color:crimson
+    color:crimson;
+    text-align: left;
+    font-size:25px;
 }
 
 p{
-    color:darkslategrey
+    color:darkslategrey;
+    text-align: left;
+}
+
+.container{
+    border:1px solid black;
+    padding:1em;
+    margin:2em;
 }
