@@ -45,6 +45,15 @@ header ul{
 
 header a{
     text-decoration: none;
-    color:rgb(28, 145, 78);
+    color: darkred;
     font-weight: bolder;
+}
+
+li{
+    padding:.3em;
+}
+
+li:hover{
+    position:relative;
+    top:-3px;
 }
